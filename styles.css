@@ -1,0 +1,200 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+
+.content {
+  padding: 30px;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.intro-section img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+
+.intro-section-text-container {
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-section-name {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  color: #000;
+}
+.intro-section-position {
+  color: #2cbfaa;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contacts-section {
+  background-color: #2cbfaa;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts-section div {
+  width: 50%;
+}
+
+.icon-container {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.section-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container h2 {
+  color: #2cbfaa;
+  text-transform: uppercase;
+}
+
+.section-item {
+  margin-bottom: 20px;
+}
+
+.section-item-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-item-description {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section-item-data-green {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2cbfaa;
+  line-height: 25px;
+}
+
+.section-item-data-grey {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7c7c7c;
+  line-height: 25px;
+}
+
+.section-technology {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.stat-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experience-title {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.experience-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.interests-tag {
+  border-radius: 6px;
+  padding: 3px 7px;
+  border: 1px solid #b2b2b2;
+  font-weight: 400;
+  font-style: normal;
+  width: fit-content;
+  margin-right: 10px;
+}
+
+.skill-tag {
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-weight: 400;
+  font-style: normal;
+  width: fit-content;
+  background-color: #2cbfaa;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.filled-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #2cbfaa;
+  margin-right: 5px;
+}
+
+.empty-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #2cbfaa;
+  margin-right: 5px;
+}
+
+.language {
+  min-width: 140px;
+}
+
+.project-description {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+i {
+  min-width: 15px;
+}
+
+ul li::marker {
+  content: "◉";
+  color: #2cbfaa;
+}
+
+ul li ul li::marker {
+  content: "⋆";
+  color: #2cbfaa;
+}
+
+ul li {
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+ul li ul li {
+  padding-left: 5px;
+  color: #7c7c7c;
+  line-height: 25px;
+}
